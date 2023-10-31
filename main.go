@@ -1,21 +1,21 @@
 package main 
 
-import "fmt"
+import ( "fmt"; "os"; tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5")
 
 func main() {
 	fmt.Println("Welcome")
-	//const StartTickets = 50
-	//var remainingTickets = 50
+	/* const StartTickets = 50
+	var remainingTickets = 50c nf
     
-	//fmt.Println("Its  goapp project")
-	//fmt.Printf("We have %v left \n", StartTickets)
-	//fmt.Printf("Get your %v ", remainingTickets)
+	fmt.Println("Its  goapp project")
+	fmt.Printf("We have %v left \n", StartTickets)
+	fmt.Printf("Get your %v ", remainingTickets)
 
-	//var name string
-	//var tickets int
+	var name string
+	var tickets int
 	
-	//name := "Tom"
-	//tickets := 2
+	name := "Tom"
+	tickets := 2 */
 	var name string
 	var tickets int
 
