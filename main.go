@@ -58,6 +58,8 @@ func main() {
 	fmt.Println("Enter number of tickets : ")
 	fmt.Scanln(&userTickets)	
 	
+	if user
+
    remainingTickets = remainingTickets - userTickets
 
    booking = append(booking, name + " " + surname)
@@ -72,6 +74,13 @@ func main() {
 	  firstNames = append(firstNames, names[0])
    }
    fmt.Printf("These first names of  bookings: %v\n", firstNames)
+
+   noTicketsLeft := remainingTickets == 0 
+   if noTicketsLeft{
+	fmt.Println("Our conf tickets is over")
+	break
+        }
+
 	}
 
 }
